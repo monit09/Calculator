@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 580px;
+    height:1100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid blue;
+    border-radius: 05%;
+}
+.calculations{
+    height: 400px;
+    width:580px;
+    border: 2px solid #120A8F;
+    color:white;
+
+}
+.input{
+    font-size: 60px;
+    background-color: black;
+    width:580px;
+    height:70px;
+     display: flex;
+    flex-direction:row-reverse;
+    margin-top:110px;
+
+}
+.output{
+    font-size: 30px;
+     width:580px;
+    height:70px;
+     display: flex;
+    flex-direction:row-reverse;
+    margin-top:55px;
+}
+.icon{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    background-color: #111111;
+    color:whitesmoke;
+    font-size: 50px;
+    border:#111111;
+    box-shadow: grey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow:inset  0 0 5px rgba(0,0,0,0.3);;
+}
+
+#addsub{
+    color:blue;
+    font-size:60px;
+    
+}
+#divide{
+    color:blue;
+    font-size:80px;
+}
+#multiply{
+    color:blue;
+    font-size:80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#ac{
+    color:blue;}
+#add{
+    color:blue;
+    font-size: 90px;
+}
+#sub{
+    color:blue;
+    font-size: 100px;
+    
+}
+#equals{
+    background-color: cornflowerblue;
+}
+.operations1{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 15px;
+    
+}
+.seventonine{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 15px;
+}
+.fourtosix{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 15px;
+}
+.onetothree{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 15px;
+}
+.operations2{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 15px;
+}
